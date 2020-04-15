@@ -19,7 +19,7 @@ function App() {
     <div>
       <h1>Carolina's Repos</h1>
       <div>
-        {data.map(data => (
+        {data.slice(0, 5).map(data => (
           <div className="repo">
            <p key={data.id}>{data.name}</p>
            <a href={data.html_url} target="_blank" className="links">Visit Github Repository</a>

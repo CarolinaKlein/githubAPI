@@ -1,38 +1,46 @@
-.App {
+body {
+  background-image: url(./gifbackground.gif);
+  background-size: cover;
+  background-repeat: repeat-y;
+  
+}
+
+.repo{
+  width: 400px;
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  border-radius: 16px;
+  padding: 15px 25px;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 900;
+  text-shadow: 0.5px 1.3px rgba(50, 50, 70, 0.5);
   text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.links{
+  text-decoration: none;
+  color: plum;
+  font-size: medium;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+	display: inline;
+	position: relative;
+	font: 100px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5); 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+span {
+  color: darkblue;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1:after {
+  display: inline;
+	content: "Carolina's";
+  position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);   
 }
